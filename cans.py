@@ -17,3 +17,8 @@ class OrangeSoda(Can):
 class RootBeer(Can):
     def __init__(self):
         super(RootBeer, self).__init__("Root Beer", 0.50)
+
+class Beer(Can):
+    def __init__(self):
+        super(Beer, self).__init__( "Beer", 1.50)
+
