@@ -1,4 +1,5 @@
 import unittest
+from unittest.case import TestCase
 from cans import Cola
 from coins import Coin
 from customer import Customer
@@ -118,6 +119,68 @@ class TestWalletLength(unittest.TestCase):
     def test_money_list_length(self):
         test_wallet_length = len(self.wallet.money)
         self.assertEqual(test_wallet_length,88)
+
+class SodaMachine(unittest.TestCase):
+    """ Tests for Soda Machine Class"""
+
+    def setUp(self):
+        self.sodamach = SodaMachine()
+
+    def test_fill_register(self):
+        pass
+
+    def test_fill_inventory(self):
+        pass
+
+    def test_get_coin_from_register(self):
+        pass
+
+    def test_register_has_coin(self):
+        pass
+# ------------------------------------------------------
+
+    def test_determine_change_value(self):
+        pass
+
+    def test_calculate_coin_value(self):
+        pass
+
+    def test_get_inventory_soda(self):
+        pass
+   
+    def test_return_inventory(self):
+        pass
+
+    def test_deposit_coins_into_register(self):
+        pass
+
+    # ----------------------------------------------------
+class UserInterfaceModule(unittest.TestCase):
+
+    def test_validate_main_menu():
+       pass
+
+    def test_parse_int():
+        pass
+
+    def test_get_unique_can_names():
+        pass
+
+    def test_display_payment_value():
+        pass
+
+    def test_validate_coin_selection():
+        pass
+
+
+
+
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
