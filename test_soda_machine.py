@@ -71,35 +71,35 @@ class TestSodaMachine(unittest.TestCase):
 
 
 
-    def test_register_has_quarter(self):
-        """ Test that Quarter will return True"""
-        quarter="Quarter"
-        coin_check=self.soda_machine.register_has_coin(quarter)
-        self.assertTrue(coin_check)
+    # def test_register_has_quarter(self):
+    #     """ Test that Quarter will return True"""
+    #     quarter="Quarter"
+    #     coin_check=self.soda_machine.register_has_coin(quarter)
+    #     self.assertTrue(coin_check)
 
-    def test_register_has_penny(self):
-        """ Test that Penny will return True"""
-        penny="Penny"
-        coin_check=self.soda_machine.register_has_coin(penny)
-        self.assertTrue(coin_check)
+    # def test_register_has_penny(self):
+    #     """ Test that Penny will return True"""
+    #     penny="Penny"
+    #     coin_check=self.soda_machine.register_has_coin(penny)
+    #     self.assertTrue(coin_check)
     
-    def test_register_has_nickel(self):
-        """ Test that Nickel will return True"""
-        nickel= "Nickel"
-        coin_check=self.soda_machine.register_has_coin(nickel)
-        self.assertTrue(coin_check)
+    # def test_register_has_nickel(self):
+    #     """ Test that Nickel will return True"""
+    #     nickel= "Nickel"
+    #     coin_check=self.soda_machine.register_has_coin(nickel)
+    #     self.assertTrue(coin_check)
     
-    def test_register_has_Dime(self):
-        """ Test that Dime will return True"""
-        dime="Dime"
-        coin_check=self.soda_machine.register_has_coin(dime)
-        self.assertTrue(coin_check)
+    # def test_register_has_Dime(self):
+    #     """ Test that Dime will return True"""
+    #     dime="Dime"
+    #     coin_check=self.soda_machine.register_has_coin(dime)
+    #     self.assertTrue(coin_check)
     
-    def test_register_has_quarter(self):
-        """ Test that Quarter will return True"""
-        quarter="Cow"
-        coin_check=self.soda_machine.register_has_coin(quarter)
-        self.assertFalse(coin_check)
+    # def test_register_has_false(self):
+    #     """ Test that Quarter will return True"""
+    #     false_list="Cow"
+    #     coin_check=self.soda_machine.register_has_coin(false_list)
+    #     self.assertFalse(coin_check)
 # # ------------------------------------------------------
 
 #     def test_determine_change_value(self):
