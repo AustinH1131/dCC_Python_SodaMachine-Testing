@@ -7,6 +7,7 @@ from simulation import Simulation
 from wallet import Wallet
 from soda_machine import SodaMachine
 from user_interface import validate_main_menu
+from user_interface import try_parse_int
 
 
 class TestUserInterfaceModule(unittest.TestCase):
@@ -36,11 +37,20 @@ class TestUserInterfaceModule(unittest.TestCase):
     #     self.user = validate_main_menu(5)
     #     self.assertEqual(self.user,(False,None))
 
-    # def test_parse_int():
-    #     pass
+    # def test_parse_pass_in_10(self):
+    #     """Pass in 10 ensure the int value is 10"""  
+    #     num10= try_parse_int(10)
+    #     self.assertEqual(10,num10)
+    
+    
+    # def test_parse_pass_in_hello(self):
+    #     """Pass in hello ensure the int value is 0"""  
+    #     num0= try_parse_int("Hello")
+    #     self.assertEqual(0,num0)
 
-    # def test_get_unique_can_names():
-    #     pass
+
+    def test_get_unique_can_names():
+        pass
 
     # def test_display_payment_value():
     #     pass
